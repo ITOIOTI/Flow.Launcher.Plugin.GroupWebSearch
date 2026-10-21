@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- 插件基礎資訊 -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_plugin_name">開啟網頁</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_plugin_description">從 Flow Launcher 開啟網頁與自訂搜尋分組</system:String>
+
+    <!-- 設定主面板 -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_groups">網頁分組</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_engines">網頁目錄</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_delete">刪除</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_edit">編輯</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_add">新增</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_reset">重設</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_keywords_prefix">關鍵詞：{0}</system:String>
+
+    <!-- 網頁分組設定視窗 -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_group_setting_title">網頁分組設定</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_group_name">分組名稱</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_keywords">關鍵詞</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_keywords_placeholder">* 全域觸發，關鍵詞之間新增空格</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_open_all">開啟全部網頁</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_enable_group">啟用此分組</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_cancel">取消</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_save">儲存</system:String>
+
+    <!-- 網頁目錄設定視窗 -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_engine_setting_title">網頁目錄設定</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_title">標題</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_url">開啟連結</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_icon">圖示</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_select_icon">選取圖示</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_private_mode">無痕模式</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_enable">啟用</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm">確認</system:String>
+
+    <!-- 提示與對話方塊 -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_delete_group_confirm">確定要刪除網頁分組【{0}】及其包含的所有內容嗎？</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_delete_engine_confirm">確定要刪除【{0}】嗎？</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_reset_confirm">確定要重設所有網頁分組和網頁目錄為預設初始設定嗎？此操作無法復原。</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_pls_select_group">請先選取或新建一個網頁分組！</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_input_group_name">請輸入分組名稱</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_input_title">請輸入標題</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_input_url">請輸入開啟連結</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm_title">確認</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm_delete_title">確認刪除</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm_reset_title">確認重設</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_tip_title">提示</system:String>
+
+    <!-- 搜尋結果 -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_open_all_title">開啟全部網頁：{0}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_open_all_subtitle">同時在瀏覽器開啟: {0}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_search_in_title">在 {0} 中搜尋：{1}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_empty_query_title">【{0}】請輸入搜尋關鍵詞...</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_empty_query_subtitle">分組內包含網頁: {0}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_private_prefix">[無痕模式] </system:String>
+
+</ResourceDictionary>

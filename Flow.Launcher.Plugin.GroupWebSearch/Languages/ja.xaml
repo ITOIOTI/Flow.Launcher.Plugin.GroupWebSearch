@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- プラグイン基本情報 -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_plugin_name">ウェブページを開く</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_plugin_description">Flow Launcher からウェブページやカスタム検索グループを開く</system:String>
+
+    <!-- 設定メインパネル -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_groups">ウェブグループ</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_engines">ウェブディレクトリ</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_delete">削除</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_edit">編集</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_add">追加</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_reset">リセット</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_keywords_prefix">キーワード：{0}</system:String>
+
+    <!-- グループ設定ウィンドウ -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_group_setting_title">グループ設定</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_group_name">グループ名</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_keywords">キーワード</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_keywords_placeholder">* グローバルトリガー、スペースで区切る</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_open_all">すべてのウェブページを開く</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_enable_group">このグループを有効化</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_cancel">キャンセル</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_save">保存</system:String>
+
+    <!-- ウェブ項目設定ウィンドウ -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_engine_setting_title">ウェブディレクトリ設定</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_title">タイトル</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_url">URL</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_icon">アイコン</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_select_icon">アイコンを選択</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_private_mode">プライベートモード</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_enable">有効</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm">確認</system:String>
+
+    <!-- ダイアログとメッセージ -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_delete_group_confirm">グループ【{0}】とそのすべての内容を削除してもよろしいですか？</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_delete_engine_confirm">【{0}】を削除してもよろしいですか？</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_reset_confirm">すべてのウェブグループとウェブディレクトリを初期状態にリセットしますか？この操作は取り消せません。</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_pls_select_group">まずウェブグループを選択または新規作成してください！</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_input_group_name">グループ名を入力してください</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_input_title">タイトルを入力してください</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_input_url">URLを入力してください</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm_title">確認</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm_delete_title">削除の確認</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm_reset_title">リセットの確認</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_tip_title">ヒント</system:String>
+
+    <!-- 検索結果 -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_open_all_title">すべてのウェブページを開く：{0}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_open_all_subtitle">ブラウザで同時に開く: {0}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_search_in_title">{0} で検索：{1}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_empty_query_title">【{0}】検索キーワードを入力してください...</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_empty_query_subtitle">グループ内のウェブページ: {0}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_private_prefix">[プライベート] </system:String>
+
+</ResourceDictionary>

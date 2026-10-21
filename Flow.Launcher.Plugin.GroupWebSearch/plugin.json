@@ -1,0 +1,20 @@
+{
+  "ID": "E8C17F6A-9154-468B-B05E-910D6A78C1B2",
+  "ActionKeywords": [
+    "ss",
+    "搜索",
+    "sp",
+    "视频",
+    "kf",
+    "开发"
+  ],
+  "HideActionKeywordPanel": true,
+  "Name": "打开网页",
+  "Description": "从 Flow Launcher 打开网页",
+  "Author": "User",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "ExecuteFileName": "Flow.Launcher.Plugin.GroupWebSearch.dll",
+  "IcoPath": "Images\\web_open.png",
+  "Website": "https://github.com/Flow-Launcher/Flow.Launcher"
+}

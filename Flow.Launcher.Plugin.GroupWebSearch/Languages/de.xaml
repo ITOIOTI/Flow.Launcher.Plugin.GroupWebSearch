@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Plugin basic info -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_plugin_name">Webseiten öffnen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_plugin_description">Webseiten und benutzerdefinierte Suchgruppen über Flow Launcher öffnen</system:String>
+
+    <!-- Main settings panel -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_groups">Web-Gruppen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_engines">Web-Kataloge</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_delete">Löschen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_edit">Bearbeiten</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_add">Hinzufügen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_reset">Zurücksetzen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_keywords_prefix">Schlüsselwörter: {0}</system:String>
+
+    <!-- Web group settings window -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_group_setting_title">Web-Gruppeneinstellungen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_group_name">Gruppenname</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_keywords">Schlüsselwörter</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_keywords_placeholder">* Globaler Auslöser, durch Leerzeichen trennen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_open_all">Alle Webseiten öffnen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_enable_group">Diese Gruppe aktivieren</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_cancel">Abbrechen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_save">Speichern</system:String>
+
+    <!-- Web catalog settings window -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_engine_setting_title">Web-Katalogeinstellungen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_title">Titel</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_url">URL</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_icon">Symbol</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_select_icon">Symbol wählen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_private_mode">Privater Modus</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_enable">Aktivieren</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm">Bestätigen</system:String>
+
+    <!-- Dialogs & Prompts -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_delete_group_confirm">Möchten Sie die Gruppe [{0}] und alle enthaltenen Einträge wirklich löschen?</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_delete_engine_confirm">Möchten Sie [{0}] wirklich löschen?</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_reset_confirm">Möchten Sie wirklich alle Gruppen und Web-Einträge auf die Standardeinstellungen zurücksetzen?</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_pls_select_group">Bitte wählen Sie zuerst eine Gruppe aus oder erstellen Sie eine!</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_input_group_name">Bitte geben Sie einen Gruppennamen ein</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_input_title">Bitte geben Sie einen Titel ein</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_input_url">Bitte geben Sie eine URL ein</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm_title">Bestätigen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm_delete_title">Löschen bestätigen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_confirm_reset_title">Zurücksetzen bestätigen</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_tip_title">Hinweis</system:String>
+
+    <!-- Search results -->
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_open_all_title">Alle Webseiten öffnen: {0}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_open_all_subtitle">Gleichzeitig im Browser öffnen: {0}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_search_in_title">In {0} suchen: {1}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_empty_query_title">[{0}] Bitte Suchbegriff eingeben...</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_empty_query_subtitle">Webseiten in der Gruppe: {0}</system:String>
+    <system:String x:Key="flowlauncher_plugin_groupwebsearch_private_prefix">[Privat] </system:String>
+
+</ResourceDictionary>
