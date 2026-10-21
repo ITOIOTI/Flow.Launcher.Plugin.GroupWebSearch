@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ITOIOTI/Flow.Launcher.Plugin.GroupWebSearch/main/Flow.Launcher.Plugin.GroupWebSearch/Images/web_open.png" alt="Logo" width="90" height="90">
+<img src="Flow.Launcher.Plugin.GroupWebSearch/Images/web_open.png" alt="Logo" width="90" height="90">
 
 # Flow Launcher - GroupWebSearch
 
@@ -23,25 +23,22 @@
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%">
-      <b>🔍 搜索效果演示 (Quick Search & Open All)</b><br><br>
-      <img src="https://github.com/user-attachments/assets/74bd0038-92ed-49e0-8413-d082b215c4f8" width="100%" style="border-radius: 6px;" />
+      <b>🔍 搜索演示 / Search Demo</b><br><br>
+      <img src="screenshots/demo_search.png" width="100%" style="border-radius: 6px;" />
     </td>
     <td align="center" width="50%">
-      <b>⚙️ 插件设置主界面 (Plugin Settings)</b><br><br>
-      <!-- 拖入第1张设置主图 -->
-      <img src="https://github.com/user-attachments/assets/74bd0038-92ed-49e0-8413-d082b215c4f8" width="100%" style="border-radius: 6px;" />
+      <b>⚙️ 插件设置 / Plugin Settings</b><br><br>
+      <img src="screenshots/settings_main.png" width="100%" style="border-radius: 6px;" />
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <b>📁 网页分组设置 (Group Settings)</b><br><br>
-      <!-- 拖入第2张分组设置图 -->
-      <img src="https://github.com/user-attachments/assets/74bd0038-92ed-49e0-8413-d082b215c4f8" width="100%" style="border-radius: 6px;" />
+      <b>📁 分组设置 / Group Settings</b><br><br>
+      <img src="screenshots/settings_group.png" width="100%" style="border-radius: 6px;" />
     </td>
     <td align="center" width="50%">
-      <b>🌐 网址目录与隐身配置 (URL & Incognito Settings)</b><br><br>
-      <!-- 拖入第3张网址设置图 -->
-      <img src="https://github.com/user-attachments/assets/74bd0038-92ed-49e0-8413-d082b215c4f8" width="100%" style="border-radius: 6px;" />
+      <b>🌐 网址与隐身 / URL & Incognito</b><br><br>
+      <img src="screenshots/settings_url.png" width="100%" style="border-radius: 6px;" />
     </td>
   </tr>
 </table>
