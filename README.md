@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ITOIOTI/Flow.Launcher.Plugin.GroupWebSearch/main/Flow.Launcher.Plugin.GroupWebSearch/Images/web_open.png" alt="Logo" width="96" height="96">
+<img src="https://raw.githubusercontent.com/ITOIOTI/Flow.Launcher.Plugin.GroupWebSearch/main/Flow.Launcher.Plugin.GroupWebSearch/Images/web_open.png" alt="Logo" width="90" height="90">
 
-# Flow Launcher - 打开网页与分组搜索 (GroupWebSearch)
+# Flow Launcher - GroupWebSearch
 
-*Flow Launcher 极速网页多开与分组聚合搜索插件*
+**极速网页多开与分组聚合搜索插件 | High-Speed Multi-Webpage & Group Search Plugin**
+
+[简体中文](#-简体中文) • [English](#-english) • [日本語](#-日本語) • [Deutsch](#-deutsch)
 
 [![GitHub Release](https://img.shields.io/github/v/release/ITOIOTI/Flow.Launcher.Plugin.GroupWebSearch?color=0078D4&label=Release)](https://github.com/ITOIOTI/Flow.Launcher.Plugin.GroupWebSearch/releases)
 [![Flow Launcher](https://img.shields.io/badge/Flow%20Launcher-Plugin-blue)](https://flowlauncher.com)
@@ -12,40 +14,112 @@
 [![No Python Required](https://img.shields.io/badge/Python-Not%20Required-brightgreen)](https://github.com/ITOIOTI/Flow.Launcher.Plugin.GroupWebSearch)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-[功能特色](#-功能特色) • [效果展示](#-效果展示) • [安装方式](#-安装方式) • [使用方法](#-使用说明) • [自定义配置](#-自定义配置)
-
 </div>
 
 ---
 
-## 📖 简介
+## 📸 界面预览 / Screenshots
 
-**GroupWebSearch** 是为 **[Flow Launcher](https://flowlauncher.com)** 打造的原生聚合搜索与网址分组直达插件。  
-只需在搜索框中输入关键词，即可**一键在多个搜索引擎（如 百度、Google、Bing 等）同时打开搜索**，也可以快速单独打开指定引擎或常用网址，助你彻底告别繁琐的重复切换标签页！
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <b>🔍 搜索效果演示 (Quick Search & Open All)</b><br><br>
+      <img src="https://github.com/user-attachments/assets/74bd0038-92ed-49e0-8413-d082b215c4f8" width="100%" style="border-radius: 6px;" />
+    </td>
+    <td align="center" width="50%">
+      <b>⚙️ 插件设置主界面 (Plugin Settings)</b><br><br>
+      <!-- 拖入第1张设置主图 -->
+      <img src="https://github.com/user-attachments/assets/74bd0038-92ed-49e0-8413-d082b215c4f8" width="100%" style="border-radius: 6px;" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <b>📁 网页分组设置 (Group Settings)</b><br><br>
+      <!-- 拖入第2张分组设置图 -->
+      <img src="https://github.com/user-attachments/assets/74bd0038-92ed-49e0-8413-d082b215c4f8" width="100%" style="border-radius: 6px;" />
+    </td>
+    <td align="center" width="50%">
+      <b>🌐 网址目录与隐身配置 (URL & Incognito Settings)</b><br><br>
+      <!-- 拖入第3张网址设置图 -->
+      <img src="https://github.com/user-attachments/assets/74bd0038-92ed-49e0-8413-d082b215c4f8" width="100%" style="border-radius: 6px;" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🌟 功能特色
+## 🇨🇳 简体中文
 
-- ⚡ **一键全开**：支持一键将搜索关键词同时分发给分组下的所有搜索引擎在浏览器中并发打开。
-- 🔍 **单个直达**：清晰列表展示各个引擎结果，也可按需按快捷键单独打开任意引擎。
-- 🎯 **自由分组**：支持在设置面板中自由添加、修改或删除网站分组（如“常用引擎”、“视频娱乐”、“技术开发”等）。
-- 🚀 **极速原生**：纯 C#（.NET 9.0 + WPF）开发，毫秒级即时响应，**无需安装 Python**，开箱即用。
-- 🌐 **多国语言**：完美适配官方 26 国语言本地化，自动匹配系统界面语言。
+### 简介
+**GroupWebSearch** 是专为 **[Flow Launcher](https://flowlauncher.com)** 打造的聚合搜索与网页分组直达插件。支持一键在多个搜索引擎（百度、Google、Bing 等）中并发打开关键词，也可独立打开任意单个引擎或常用网址，让信息检索快人一步。
+
+### 功能特性
+- ⚡ **一键全开**：支持一键在默认浏览器中同时打开分组下的所有网址并完成搜索。
+- 🎯 **灵活分组**：支持在设置面板中任意添加“常用引擎”、“视频娱乐”、“开发文档”等分组并绑定自定义触发词。
+- 🕶️ **隐私保护**：支持为指定网址开启“隐身模式”，无痕检索更安心。
+- 🚀 **极速原生**：采用纯 C#（.NET 9.0 + WPF）开发，毫秒级响应，**无需安装 Python**。
+- 🌍 **完整多语言**：深度适配官方 26 种系统语言，随系统自动切换。
+
+### 安装方法
+- **插件商店安装（推荐）**：  
+  在 Flow Launcher 搜索框输入：`pm install GroupWebSearch`
+- **离线安装**：  
+  从 [Releases](https://github.com/ITOIOTI/Flow.Launcher.Plugin.GroupWebSearch/releases/latest) 下载 ZIP 解压至 `%APPDATA%\FlowLauncher\Plugins\` 目录并重启 Flow Launcher。
 
 ---
 
-## 🖼️ 效果展示
+## 🇺🇸 English
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/74bd0038-92ed-49e0-8413-d082b215c4f8" alt="演示截图" width="800" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
-</div>
+### Overview
+**GroupWebSearch** is a high-performance search aggregation and URL grouping plugin for **[Flow Launcher](https://flowlauncher.com)**. It allows you to search across multiple search engines (Google, Bing, Baidu, DuckDuckGo, etc.) simultaneously with a single click, or quickly open specific website bookmarks.
+
+### Key Features
+- ⚡ **Open All in One Click**: Instantly distribute your query across all configured engines in your group simultaneously.
+- 🎯 **Custom Groups**: Freely create, edit, or delete URL groups (e.g., "Engines", "Videos", "Dev") with custom action keywords.
+- 🕶️ **Incognito Mode**: Toggle private/incognito browsing individually for each search engine or website.
+- 🚀 **Native Performance**: Built entirely with C# (.NET 9.0 + WPF). Blazing fast startup, **Zero Python dependency**.
+- 🌍 **26 Languages**: Fully localized with support for 26 official Flow Launcher languages.
+
+### Installation
+- **In-App Store (Recommended)**:  
+  Run `pm install GroupWebSearch` in Flow Launcher.
+- **Manual Install**:  
+  Download `Flow.Launcher.Plugin.GroupWebSearch.zip` from [Releases](https://github.com/ITOIOTI/Flow.Launcher.Plugin.GroupWebSearch/releases/latest), extract it to `%APPDATA%\FlowLauncher\Plugins\`, and restart Flow Launcher.
 
 ---
 
-## 📦 安装方式
+## 🇯🇵 日本語
 
-### 方式一：Flow Launcher 插件商店安装（推荐）
-在 Flow Launcher 搜索框中输入：
-```text
-pm install GroupWebSearch
+### 概要
+**GroupWebSearch** は、**[Flow Launcher](https://flowlauncher.com)** 向けの高速検索アグリゲーション＆ウェブサイトグループプラグインです。1回の入力で Google、Bing、Baidu などの複数の検索エンジンを同時にブラウザで開くことができます。
+
+### 主な特徴
+- ⚡ **一括検索**：グループ内のすべての検索エンジンで同時にキーワードを検索。
+- 🎯 **自由なグループ管理**：「検索エンジン」「動画」「開発」など、好みのグループとキーワードを自由に作成・編集。
+- 🕶️ **シークレットモード**：特定の検索エンジンでプライベートブラウジングを有効化可能。
+- 🚀 **高速・軽量**：純粋な C# (.NET 9.0) 実装。**Python 不要**で即座に動作。
+
+### インストール
+- Flow Launcher の検索バーで `pm install GroupWebSearch` を実行。
+
+---
+
+## 🇩🇪 Deutsch
+
+### Übersicht
+**GroupWebSearch** ist ein leistungsstarkes Plugin für **[Flow Launcher](https://flowlauncher.com)** zur schnellen Gruppensuche und Website-Verwaltung. Durchsuchen Sie mehrere Suchmaschinen (Google, Bing, DuckDuckGo usw.) gleichzeitig mit nur einem Tastendruck.
+
+### Highlights
+- ⚡ **Alle auf einmal öffnen**: Durchsuchen Sie alle konfigurierten Suchmaschinen einer Gruppe gleichzeitig im Browser.
+- 🎯 **Benutzerdefinierte Gruppen**: Beliebige Gruppen erstellen und mit individuellen Suchkürzeln verknüpfen.
+- 🕶️ **Inkognito-Modus**: Privates Surfen für einzelne Suchmaschinen flexibel aktivierbar.
+- 🚀 **Nativ & Schnell**: Entwickelt in nativem C# (.NET 9.0). **Keine Python-Installation erforderlich**.
+
+### Installation
+- Führen Sie in Flow Launcher einfach `pm install GroupWebSearch` aus.
+
+---
+
+## 📄 License
+
+Distributed under the [MIT License](LICENSE).
